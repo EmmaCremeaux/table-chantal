@@ -1,12 +1,16 @@
 body, footer, header {
-  background-color:rgba(10, 72, 97, 0.959);
+  background-color:rgba(36, 38, 39, 0.959);
 }
 
+header {
+  display: flex;
+  justify-content:space-between;
+}
 
 .titre {
   color: rgb(223, 151, 17);
   font-size: 55px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
   padding-left: 20px;
 }
 
@@ -18,9 +22,13 @@ body, footer, header {
   
 }
 
-header {
-  display: flex;
-  justify-content:space-between;
+.navMenu {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  /* border: solid 1px rgb(223, 151, 17);
+  border-radius: 50px; */
+  
 }
 
 .a {
@@ -28,21 +36,6 @@ header {
   color: rgb(223, 151, 17);
 }
 
-.navMenu {
-  padding: 20px;
-  text-decoration: none;
-  font-size: 25px;
-  border: solid 1px rgb(223, 151, 17);
-  border-radius: 50px;
-  
-}
-
-.navIcons {
-  padding: 40px;
-  font-size: 50px;
-  color: rgb(223, 151, 17);
-  
-}
 
 img {
   object-fit: cover;
@@ -55,23 +48,25 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(223, 151, 17);
+  /* background-color: rgba(36, 38, 39, 0.959); */
+  border: solid 1px rgb(223, 151, 17);
 }
 
 label {
   font-size: 20px;
-  color: rgba(10, 72, 97, 0.959);
+  color: rgb(223, 151, 17);
   
 }
 
 input, textarea {
   margin: 10px;
+  border-radius: 8px;
 }
 
 .btn {
   width: 150px;
-  background-color: rgba(10, 72, 97, 0.959);
-  color: white;
+  background-color: rgb(223, 151, 17);
+  color: rgba(36, 38, 39, 0.959);
 }
 
 .presentation {
@@ -92,4 +87,19 @@ h2 {
 
 .slide {
   padding-top: 30px;
+}
+
+h3 {
+  font-style: italic;
+}
+
+.contact {
+  color: rgb(223, 151, 17);
+  padding-left: 30px;
+}
+
+.navIcons {
+  padding: 40px;
+  font-size: 50px;
+  color: rgb(223, 151, 17);
 }
