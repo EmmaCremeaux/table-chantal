@@ -10,10 +10,10 @@ return (
   </div><div>
       <nav className="navigation">
 
-        <div className="navMenu"><Link to="/">Acceuil</Link></div>
-        <div className="navMenu"><Link to="/Menus">Menus</Link></div>
-        <div className="navMenu"><Link to="/Boissons">Boissons</Link></div>
-        <div className="navMenu"><Link to="/Contact">Contact</Link></div>
+        <div className="navMenu"><Link className = "a" to="/">Acceuil</Link></div>
+        <div className="navMenu"><Link className = "a" to="/Menus">Menus</Link></div>
+        <div className="navMenu"><Link className = "a" to="/Boissons">Boissons</Link></div>
+        <div className="navMenu"><Link className = "a" to="/Contact">Contact</Link></div>
       </nav>
     </div></>
 )

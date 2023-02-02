@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Accueil from './Accueil';
-import Boissons from './Boissons';
-import Menus from './Menus';
-import Contact from './Contact';
+import Accueil from './pages/Accueil';
+import Boissons from './pages/Boissons';
+import Menus from './pages/Menus';
+import Contact from './pages/Contact';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 
