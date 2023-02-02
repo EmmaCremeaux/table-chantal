@@ -1,13 +1,20 @@
+body, footer, header {
+  background-color:rgba(10, 72, 97, 0.959);
+}
+
+
 .titre {
-  color: black;
+  color: rgb(223, 151, 17);
   font-size: 55px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 20px;
 }
 
 .navigation {
   display: flex;
   flex-direction: row;
-  padding-top: 35px;
+  padding-top: 40px;
+  padding-right: 20px;
   
 }
 
@@ -16,20 +23,25 @@ header {
   justify-content:space-between;
 }
 
+.a {
+  text-decoration: none;
+  color: rgb(223, 151, 17);
+}
+
 .navMenu {
   padding: 20px;
   text-decoration: none;
   font-size: 25px;
-  border: solid 1px black;
+  border: solid 1px rgb(223, 151, 17);
   border-radius: 50px;
-  color: black;
   
 }
 
 .navIcons {
+  padding: 40px;
   font-size: 50px;
-  color: rgb(25, 25, 134);
-  padding: 20px;
+  color: rgb(223, 151, 17);
+  
 }
 
 img {
@@ -37,4 +49,47 @@ img {
   width: 100%;
   height: 600px;
   
+}
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(223, 151, 17);
+}
+
+label {
+  font-size: 20px;
+  color: rgba(10, 72, 97, 0.959);
+  
+}
+
+input, textarea {
+  margin: 10px;
+}
+
+.btn {
+  width: 150px;
+  background-color: rgba(10, 72, 97, 0.959);
+  color: white;
+}
+
+.presentation {
+  color: rgb(223, 151, 17);
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  padding-bottom: 40px;
+}
+
+.slide {
+  padding-top: 30px;
 }
