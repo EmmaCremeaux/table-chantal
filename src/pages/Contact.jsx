@@ -1,40 +1,48 @@
 import React from 'react';
+import Map from '../Components/Map';
 
 
 function Contact() {
 return (
-    <form className="formulaire">
+    <><form className="formulaire">
 
-  <label>
-    Nom :
-    <div>
-    <input type="text" name="name" size="30"/>
-    </div>
-  </label>
+    <label>
+      Nom :
+      <div>
+        <input type="text" name="name" size="30" />
+      </div>
+    </label>
 
-  <label>
-    Email :
-    <div>
-    <input type="text" name="email" size="30"/>
-    </div>
-  </label>
+    <label>
+      Email :
+      <div>
+        <input type="text" name="email" size="30" />
+      </div>
+    </label>
 
-  <label>
-    Sujet du message :
-    <div>
-    <input type="text" name="sujet" size="30" />
-    </div>
-  </label>
+    <label>
+      Sujet du message :
+      <div>
+        <input type="text" name="sujet" size="30" />
+      </div>
+    </label>
 
-  <label>
-    Messages :
-    <div>
-    <textarea type="text" name="message" maxlength="2000" rows="10" cols="30"/>
-    </div>
-  </label>
+    <label>
+      Messages :
+      <div>
+        <textarea type="text" name="message" maxlength="2000" rows="10" cols="30" />
+      </div>
+    </label>
+
+    <input className="btn" type="submit" value="Envoyer" />
+  </form>
+  <div>
+    <Map/>
+  </div>
   
-  <input className="btn" type="submit" value="Envoyer" />
-</form>
+  
+  </>
+
 )
 }
 
