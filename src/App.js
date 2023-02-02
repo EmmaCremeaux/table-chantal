@@ -5,25 +5,15 @@ import Accueil from './Accueil';
 import Boissons from './Boissons';
 import Menus from './Menus';
 import Contact from './Contact';
-
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 
 function App() {
   return (
     <Router>
       <header>
-        <div>
-          <h1 className="titre">La table de Chantal</h1>
-        </div>
-        <div>
-          <nav className="navigation">
-            
-            <div className="navMenu"><Link to="/">Acceuil</Link></div>
-            <div className="navMenu"><Link to="/Menus">Menus</Link></div>
-            <div className="navMenu"><Link to="/Boissons">Boissons</Link></div>
-            <div className="navMenu"><Link to="/Contact">Contact</Link></div>
-          </nav>
-        </div>
+        <Header/>
 
       </header>
       <body>
@@ -36,14 +26,7 @@ function App() {
       </body>
       
       <footer>
-        <div className="icons">
-          <a className="navIcons" href="#">
-            <i className="fa-brands fa-facebook"></i>
-          </a>
-          <a className="navIcons" href="#">
-            <i className="fa-brands fa-instagram"></i>
-          </a>
-        </div>
+        <Footer/>
       </footer>
     </Router>
   );

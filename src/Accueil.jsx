@@ -22,7 +22,7 @@ function Accueil() {
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % photosToggle.length);
-    }, 2000);
+    }, 2500);
     return () => clearInterval(timer);
   }, [photosToggle.length]);
 
