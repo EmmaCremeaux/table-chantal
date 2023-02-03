@@ -5,3 +5,63 @@
   background-color:rgba(36, 38, 39, 0.959);
 }
 
+<<<<<<< HEAD
+=======
+header {
+  display: flex;
+  justify-content:space-between;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-right: 20px;
+  
+}
+
+
+.navMenu {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Lobster', cursive;
+}
+
+.a {
+  text-decoration: none;
+  color: rgb(83, 136, 172);
+}
+
+.navMenu:hover {
+  transform: scale(150%);
+
+
+}
+
+.navIcons {
+  padding: 40px;
+  font-size: 50px;
+  color: rgb(83, 136, 172);
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.titre {
+  color: rgb(83, 136, 172);
+  font-size: 70px;
+  font-family: 'Lobster', cursive;
+  padding-left: 20px;
+  text-shadow: 5px 7px 6px rgb(129, 131, 133);
+  letter-spacing: 3px;
+  -webkit-text-stroke: 0.5px rgb(36, 36, 37)
+}
+
+.art-shadow h3 {
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+>>>>>>> 6f579d0b19814d4ffc64cb86a0c1969f02f399e8
