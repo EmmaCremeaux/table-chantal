@@ -1,5 +1,5 @@
 .presentation {
-    color: rgb(223, 151, 17);
+    color: rgb(83, 136, 172);
     padding: 20px;
     padding-bottom: 30px;
   }
@@ -15,13 +15,6 @@
     height: 700px;
   }
 
-
-.titre {
-    color: rgb(223, 151, 17);
-    font-size: 55px;
-    font-family: 'Lobster', cursive;
-    padding-left: 20px;
-  }
   
 .chef {
     width: 300px;
@@ -42,11 +35,12 @@ h4 {
     font-family: 'Lobster', cursive;
     font-size: 40px;
     text-align: center;
-    color: rgb(223, 151, 17);
+    color: rgb(83, 136, 172);
    
   }
 
 .presResto {
   background-color: rgb(24, 24, 24);
   padding : 60px
+  
 }

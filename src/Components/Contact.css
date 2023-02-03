@@ -4,24 +4,24 @@
     flex-direction: column;
     align-items: center;
     /* background-color: rgba(36, 38, 39, 0.959); */
-    border: solid 1px rgb(223, 151, 17);
+    border: solid 1px rgb(83, 136, 172);
   }
   
   
 label {
     font-size: 20px;
-    color: rgb(223, 151, 17);
+    color: rgb(83, 136, 172);
     
   }
 
 .btn {
     width: 150px;
-    background-color: rgb(223, 151, 17);
+    background-color: rgb(75, 145, 192);
     color: rgba(36, 38, 39, 0.959);
   }
 
 .contact {
-    color: rgb(223, 151, 17);
+    color: rgb(83, 136, 172);
     padding-left: 30px;
   }  
 

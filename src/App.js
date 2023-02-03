@@ -14,8 +14,8 @@ function App() {
     <Router>
       <header>
         <Header/>
-
       </header>
+
       <body>
       <Routes>
         <Route exact path="/" element={<Accueil/>} />
