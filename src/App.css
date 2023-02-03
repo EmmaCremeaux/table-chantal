@@ -1,46 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-body, footer, header {
+.App {
+  text-align: center;
   background-color:rgba(36, 38, 39, 0.959);
 }
 
-header {
-  display: flex;
-  justify-content:space-between;
-}
-
-.navigation {
-  display: flex;
-  flex-direction: row;
-  padding-top: 40px;
-  padding-right: 20px;
-  
-}
-
-
-.navMenu {
-  padding: 20px;
-  text-decoration: none;
-  font-size: 25px;
-  font-family: 'Lobster', cursive;
-  /* border: solid 1px rgb(223, 151, 17);
-  border-radius: 50px; */
-  
-}
-
-.a {
-  text-decoration: none;
-  color: rgb(223, 151, 17);
-}
-
-.navIcons {
-  padding: 40px;
-  font-size: 50px;
-  color: rgb(223, 151, 17);
-}
-
-.icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}

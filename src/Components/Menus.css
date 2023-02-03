@@ -1,0 +1,32 @@
+
+
+.titrePageMenus {
+    font-family: 'Lobster', cursive; 
+    color: rgb(223, 151, 17);
+    font-size: 60px;
+  }
+
+.imageMenu {
+    object-fit: cover;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px;
+  } 
+  .block {
+    margin: auto;
+  }
+  .first{
+    display: flex;
+  }
+  .second{
+    display: flex;
+  }
+  .all{
+    margin: auto;
+    width: 1000px;
+  }
+
+  .nom-prix {
+    color: rgb(223, 151, 17);
+  }
