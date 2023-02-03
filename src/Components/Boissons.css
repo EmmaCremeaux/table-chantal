@@ -1,6 +1,9 @@
 
 .boissons {
     color: rgb(83, 136, 172);
+    /* font-family: 'Lobster', cursive; */
+    letter-spacing: 2px;
+    font-size: 25px;
   }
   
   .priceBoisson {

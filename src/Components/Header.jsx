@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function Header() {
 return (
-  <><div>
+  <>
+  <header><div>
     <h1 className="titre">La table de Chantal</h1>
   </div><div>
       <nav className="navigation">
@@ -15,7 +16,8 @@ return (
         <div className="navMenu"><Link className = "a" to="/Boissons">Boissons</Link></div>
         <div className="navMenu"><Link className = "a" to="/Contact">Contact</Link></div>
       </nav>
-    </div></>
+    </div>
+    </header></>
 )
 }
 export default Header;

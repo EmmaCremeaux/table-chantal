@@ -4,9 +4,9 @@
     padding-bottom: 30px;
   }
 
-.text {
+/* .text {
     padding-bottom: 40px;
-  }
+  } */
   
 .slide {
     padding-top: 30px;
@@ -20,6 +20,7 @@
     width: 300px;
     padding-right: 20px;
     margin: 60px;
+    background-color: rgb(54, 53, 53);
     
   }
 
@@ -29,6 +30,11 @@
     align-items: center;
     padding-right: 30px;
     margin-top: 50px;
+    
+  }
+
+  .textChef {
+    background-color: rgb(54, 53, 53);
   }
 
 h4 {
@@ -36,6 +42,7 @@ h4 {
     font-size: 40px;
     text-align: center;
     color: rgb(83, 136, 172);
+    background-color: rgb(54, 53, 53);
    
   }
 
@@ -43,4 +50,8 @@ h4 {
   background-color: rgb(24, 24, 24);
   padding : 60px
   
+}
+
+.textResto {
+  background-color: rgb(24, 24, 24);
 }

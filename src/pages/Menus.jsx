@@ -1,10 +1,19 @@
 import React from 'react';
-
+import '../App.css';
+import Buttons from '../Components/Buttons';
+import AfficheMenus from '../Components/AfficheMenus';
+import MenusContext from '../Context/MenusContext';
 
 function Menus() {
+
 return (
-    <h1>Bonjour Menus</h1>
-)
+    <div className="pageMenu">
+    <MenusContext>
+      <Buttons/>
+      <AfficheMenus/>
+    </MenusContext>
+    </div>
+);
 }
 
 export default Menus;

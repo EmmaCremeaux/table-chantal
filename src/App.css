@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-body, footer, header {
+* {
   background-color:rgba(36, 38, 39, 0.959);
 }
+
 
 header {
   display: flex;
   justify-content:space-between;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
 
 .navigation {
@@ -14,14 +20,14 @@ header {
   flex-direction: row;
   padding-top: 40px;
   padding-right: 20px;
-  
 }
 
 
 .navMenu {
-  padding: 20px;
+  margin-top: 20px;
+  margin-right: 50px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 40px;
   font-family: 'Lobster', cursive;
 }
 
@@ -32,25 +38,28 @@ header {
 
 .navMenu:hover {
   transform: scale(150%);
-
-
 }
 
 .navIcons {
-  padding: 40px;
+  margin: 30px;
   font-size: 50px;
   color: rgb(83, 136, 172);
+}
+
+.navIcons:hover {
+  transform: scale(150%);
 }
 
 .icons {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  color: rgb(83, 136, 172);
 }
 
 .titre {
+  margin-left: 20px;
   color: rgb(83, 136, 172);
-  font-size: 70px;
+  font-size: 80px;
   font-family: 'Lobster', cursive;
   padding-left: 20px;
   text-shadow: 5px 7px 6px rgb(129, 131, 133);
@@ -61,3 +70,4 @@ header {
 .art-shadow h3 {
 	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
+

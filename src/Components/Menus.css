@@ -1,0 +1,45 @@
+
+
+.titrePageMenus {
+    font-family: 'Lobster', cursive; 
+    color: rgb(83, 136, 172);
+    font-size: 60px;
+  }
+
+.imageMenu {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(214, 215, 216);
+  } 
+  .block {
+    margin: auto;
+  }
+  .first{
+    display: flex;
+    margin-bottom: 100px;
+  }
+  .second{
+    display: flex;
+  }
+  .all{
+    margin: auto;
+    width: 100%;
+  }
+
+  .nom-prix {
+    color: rgb(83, 136, 172);
+    font-size: 20px;
+  }
+
+  .pageMenu {
+    text-align: center;
+  }
+
+  .titreplat {
+    font-size: 25px;
+    letter-spacing: 2px;
+    /* font-family: 'Lobster', cursive; */
+
+  }
