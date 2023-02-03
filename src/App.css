@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body, footer, header {
   background-color:rgba(36, 38, 39, 0.959);
 }
@@ -5,13 +7,6 @@ body, footer, header {
 header {
   display: flex;
   justify-content:space-between;
-}
-
-.titre {
-  color: rgb(223, 151, 17);
-  font-size: 55px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-  padding-left: 20px;
 }
 
 .navigation {
@@ -22,10 +17,12 @@ header {
   
 }
 
+
 .navMenu {
   padding: 20px;
   text-decoration: none;
   font-size: 25px;
+  font-family: 'Lobster', cursive;
   /* border: solid 1px rgb(223, 151, 17);
   border-radius: 50px; */
   
@@ -36,70 +33,14 @@ header {
   color: rgb(223, 151, 17);
 }
 
-
-img {
-  object-fit: cover;
-  width: 100%;
-  height: 600px;
-  
-}
-
-.formulaire {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* background-color: rgba(36, 38, 39, 0.959); */
-  border: solid 1px rgb(223, 151, 17);
-}
-
-label {
-  font-size: 20px;
-  color: rgb(223, 151, 17);
-  
-}
-
-input, textarea {
-  margin: 10px;
-  border-radius: 8px;
-}
-
-.btn {
-  width: 150px;
-  background-color: rgb(223, 151, 17);
-  color: rgba(36, 38, 39, 0.959);
-}
-
-.presentation {
-  color: rgb(223, 151, 17);
-  padding: 20px;
-  padding-bottom: 30px;
-}
-
-h2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.text {
-  padding-bottom: 40px;
-}
-
-.slide {
-  padding-top: 30px;
-}
-
-h3 {
-  font-style: italic;
-}
-
-.contact {
-  color: rgb(223, 151, 17);
-  padding-left: 30px;
-}
-
 .navIcons {
   padding: 40px;
   font-size: 50px;
   color: rgb(223, 151, 17);
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

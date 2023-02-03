@@ -1,0 +1,33 @@
+
+.boissons {
+    color: rgb(223, 151, 17);
+  }
+  
+  .priceBoisson {
+    color: rgb(223, 151, 17);
+    font-size: 20px;
+  }
+  
+  .affichageBoisson {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    padding: 5px;
+  }
+  
+  .pageBoisson {
+    display: flex;
+  }
+  
+  .imgBoisson {
+    border-radius: 5%;
+    width: 100%;
+    height: 80%;
+  }
+
+  .boissons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
